@@ -32,15 +32,16 @@
         "responses": ["Happy to help!", "Any time!", "My pleasure"]
       },
       {
-        "tag": "items",
+        "tag": "faculty",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "faculty",
+          "Who are your faculties?",
+          "Who is teaching the courses?",
+          "Who is teaching the classes?",
+          "Professors"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "The faculties are Prof. Ben Jones, Prof. Varun Shankar, Prof. Nabil Makarem, Prof. Dav de St. Germain and Prof. Matthew Flatt"
         ]
       },
       {
@@ -57,15 +58,15 @@
         ]
       },
       {
-        "tag": "delivery",
+        "tag": "classes",
         "patterns": [
-          "How long does delivery take?",
-          "How long does shipping take?",
-          "When do I get my delivery?"
+          "classes",
+          "courses",
+          "What classes do we take?",
+          "How many class do we take?"
         ],
         "responses": [
-          "Delivery takes 2-4 days",
-          "Shipping takes 2-4 days"
+          "There are 10 classes requested. 1st Fall semester: CS6010 Introduction to Software Development, CS6011 Computer Programming, CS6012 Data Structures and Algorithms. Spring semester: CS6013 Software Engineering, CS6014 Computer Arch + Operating Systems, CS6015 Computer Networks + Security. Summer semester: CS6016 Database Systems and Applications, CS6017 Data Analytics and Visualization. 2nd Fall semester: CS6018 Application System Design, MSD Capstone"
         ]
       },
       {

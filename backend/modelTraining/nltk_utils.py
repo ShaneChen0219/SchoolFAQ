@@ -7,6 +7,7 @@ from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
 def tokenize(sentences):
     return nltk.word_tokenize(sentences)
+
 def stem(word):
     return stemmer.stem(word.lower())
 
