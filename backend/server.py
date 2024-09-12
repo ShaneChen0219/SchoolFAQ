@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 
 import random
 import json
@@ -29,8 +30,8 @@ model = NeuralNet(inputSize, hiddenSize, outputSize).to(device)
 model.load_state_dict(modelState)
 model.eval()
 
-botName = "Shane"
-
+botName = "bot"
+CORS(app, origins="http://localhost:3000")
 # Define the /chat endpoint to interact with the chatbot
 @app.route('/chat', methods=['POST'])
 def chat():

@@ -66,7 +66,7 @@
           "How many class do we take?"
         ],
         "responses": [
-          "There are 10 classes requested. 1st Fall semester: CS6010 Introduction to Software Development, CS6011 Computer Programming, CS6012 Data Structures and Algorithms. Spring semester: CS6013 Software Engineering, CS6014 Computer Arch + Operating Systems, CS6015 Computer Networks + Security. Summer semester: CS6016 Database Systems and Applications, CS6017 Data Analytics and Visualization. 2nd Fall semester: CS6018 Application System Design, MSD Capstone"
+          "There are 10 classes requested. 1st Fall semester: CS6010 Introduction to Software Development, CS6011 Computer Programming, CS6012 Data Structures and Algorithms. \nSpring semester: CS6013 Software Engineering,CS6014 Computer Arch + Operating Systems, CS6015 Computer Networks + Security. \nSummer semester: CS6016 Database Systems and Applications, CS6017 Data Analytics and Visualization. \n2nd Fall semester: CS6018 Application System Design, MSD Capstone"
         ]
       },
       {
