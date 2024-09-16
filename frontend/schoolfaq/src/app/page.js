@@ -43,6 +43,7 @@ export default function Home() {
     })
   }
 
+  //useEffect runs whenever the chatlog changes to keep on track on the last message
   useEffect(() => {
     if (chatEndRef.current) {
       chatEndRef.current.scrollIntoView({ behavior: "smooth" });
