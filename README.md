@@ -15,7 +15,6 @@ source .venv/bin/activate
 deactivate
 ```
 
-
 ## Activate the Website
 ```
 npm run dev
