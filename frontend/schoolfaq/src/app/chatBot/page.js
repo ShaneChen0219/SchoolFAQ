@@ -3,7 +3,7 @@ import Image from "next/image";
 import Head from "next/head";
 import { useState, useEffect, useRef } from "react";
 import axios from "axios";
-import TypingAnimation from "../component/typingAnimation";
+import TypingAnimation from "../../component/typingAnimation";
 
 export default function ChatBot(){
     //()initial type input will be a string, chatlog is an array of strings and boolean for isloading
