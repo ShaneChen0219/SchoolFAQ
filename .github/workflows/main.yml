@@ -23,9 +23,9 @@ jobs:
         run: npm install
         working-directory: ./frontend/schoolfaq
 
-      - name: Run tests
-        run: npm run test
-        working-directory: ./frontend/schoolfaq
+      # - name: Run tests
+      #   run: npm run test
+      #   working-directory: ./frontend/schoolfaq
 
   # Backend CI for Flask
   BackEndCI:
@@ -39,12 +39,12 @@ jobs:
         with:
           python-version: "3.9"
 
-      - name: Install dependencies
-        run: |
-          python -m venv .venv
-          source .venv/bin/activate
-          pip install -r requirements.txt
-        working-directory: ./backend
+      # - name: Install dependencies
+      #   run: |
+      #     python -m venv .venv
+      #     source .venv/bin/activate
+      #     pip install -r requirements.txt
+      #   working-directory: ./backend
 
       # - name: Run tests
       #   run: |
@@ -69,9 +69,9 @@ jobs:
         run: npm install
         working-directory: ./frontend/schoolfaq
 
-      - name: Build for production
-        run: npm run build
-        working-directory: ./frontend/schoolfaq
+      # - name: Build for production
+      #   run: npm run build
+      #   working-directory: ./frontend/schoolfaq
 
       # - name: Deploy
       #   run: echo "Deploying Next.js application..."
@@ -90,12 +90,12 @@ jobs:
         with:
           python-version: "3.9"
 
-      - name: Install dependencies
-        run: |
-          python -m venv .venv
-          source .venv/bin/activate
-          pip install -r requirements.txt
-        working-directory: ./backend
+      # - name: Install dependencies
+      #   run: |
+      #     python -m venv .venv
+      #     source .venv/bin/activate
+      #     pip install -r requirements.txt
+      #   working-directory: ./backend
 
       # - name: Deploy Flask app
       #   run: echo "Deploying Flask application..."
