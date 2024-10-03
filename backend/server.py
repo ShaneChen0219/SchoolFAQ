@@ -13,7 +13,6 @@ app.register_blueprint(chatBlueprint)
 app.register_blueprint(authBlueprint)
 app.register_blueprint(userCreateBlueprint)
 
-CORS(app, origins="http://localhost:3000") 
+CORS(app) 
 if __name__ == '__main__':
-
-    app.run(debug=True, port=5050)
+    app.run(debug=True, port=8080)

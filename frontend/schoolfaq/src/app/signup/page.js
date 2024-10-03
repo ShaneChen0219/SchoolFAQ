@@ -15,7 +15,7 @@ export default function SignUp() {
         e.preventDefault();
         setErrorMessage('');
         setSuccessMessage('');
-        const url = "http://localhost:5050/api/users"
+        const url = "http://localhost:8080/api/users"
         const header = {}
         header["Content-Type"] = "application/json"
         const body = {

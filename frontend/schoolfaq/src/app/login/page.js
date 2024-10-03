@@ -12,7 +12,7 @@ export default function Login() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setErrorMessage('');
-        const url = "http://localhost:5050/api/login"
+        const url = "http://localhost:8080/api/login"
         const header = {}
         header["Content-Type"] = "application/json"
         const body = {

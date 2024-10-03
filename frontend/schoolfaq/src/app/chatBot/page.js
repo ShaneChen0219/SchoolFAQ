@@ -23,7 +23,7 @@ export default function ChatBot(){
     }
 
     const sendMessage = (message) => {
-        const url = "http://localhost:5050/chat"
+        const url = "http://localhost:8080/chat"
         const header = {}
         header["Content-Type"] = "application/json"
         const body = {
