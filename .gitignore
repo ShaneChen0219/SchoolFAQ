@@ -68,6 +68,8 @@ yarn-error.log*
 # local env files
 .env*.local
 *.env*
+backend/.env
+frontend/schoolfaq/.env
 
 # vercel
 .vercel
@@ -75,7 +77,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-backend/.env
+
 
 # pycache
 __pycache__/
@@ -83,3 +85,4 @@ __pycache__/
 *.pyo
 *.pyd
 *.pyc
+
