@@ -67,6 +67,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+*.env*
 
 # vercel
 .vercel
@@ -81,3 +82,4 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.pyc

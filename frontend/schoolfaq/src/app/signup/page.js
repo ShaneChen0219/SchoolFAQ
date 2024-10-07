@@ -10,12 +10,12 @@ export default function SignUp() {
     const [errorMessage, setErrorMessage] = useState('');
     const [successMessage, setSuccessMessage] = useState('');
     const router = useRouter();
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         setErrorMessage('');
         setSuccessMessage('');
-        const url = "http://localhost:8080/api/users"
+        
+        const url = process.env.NEXT_PUBLIC_BASIC_URI+"/api/users"
         const header = {}
         header["Content-Type"] = "application/json"
         const body = {
