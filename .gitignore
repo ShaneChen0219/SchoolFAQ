@@ -53,10 +53,24 @@
 
 # local env files
 .env*.local
+<<<<<<< HEAD
 *.env
 backend/.env
 frontend/schoolfaq/.env
 
+=======
+*.env*
+backend/.env
+frontend/schoolfaq/.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+>>>>>>> ac1207e (gitignore added .env)
 
 # pycache
 __pycache__/
@@ -65,6 +79,7 @@ __pycache__/
 *.pyd
 *.pyc
 
+<<<<<<< HEAD
 # dependencies
 frontend/schoolfaq/node_modules
 frontend/schoolfaq/.pnp
@@ -101,3 +116,5 @@ frontend/schoolfaq/*.tsbuildinfo
 frontend/schoolfaq/next-env.d.ts
 
 
+=======
+>>>>>>> ac1207e (gitignore added .env)
