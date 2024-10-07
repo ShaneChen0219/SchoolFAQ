@@ -42,41 +42,20 @@
 
 #Cmake
 **/CMakeLists.txt
-
 **/.idea
-
 *.venv
-
 .vscode
 
-# next.js
-/.next/
-/out/
-
-# production
-/build
 
 # misc
 .DS_Store
 *.pem
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
 # local env files
 .env*.local
-*.env*
+*.env
 backend/.env
 frontend/schoolfaq/.env
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
 
 
 # pycache
@@ -85,4 +64,40 @@ __pycache__/
 *.pyo
 *.pyd
 *.pyc
+
+# dependencies
+frontend/schoolfaq/node_modules
+frontend/schoolfaq/.pnp
+frontend/schoolfaq.pnp.js
+frontend/schoolfaq/.yarn/install-state.gz
+
+# testing
+frontend/schoolfaq/coverage
+
+# next.js
+frontend/schoolfaq/.next/
+frontend/schoolfaq/out/
+
+# production
+frontend/schoolfaq/build
+
+# misc
+.DS_Store
+frontend/schoolfaq/*.pem
+
+# debug
+frontend/schoolfaq/npm-debug.log*
+frontend/schoolfaq/yarn-debug.log*
+frontend/schoolfaq/yarn-error.log*
+
+# local env files
+frontend/schoolfaq/.env*.local
+
+# vercel
+frontend/schoolfaq/.vercel
+
+# typescript
+frontend/schoolfaq/*.tsbuildinfo
+frontend/schoolfaq/next-env.d.ts
+
 
