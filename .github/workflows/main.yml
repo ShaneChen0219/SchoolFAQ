@@ -4,8 +4,7 @@ run-name: ${{ github.actor }} 🚀
 on:
   push:
     branches:
-      - main
-      - UserLogin
+      - '*'
 
 jobs:
   FrontEndCI:
@@ -37,20 +36,20 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.9"
+          python-version: "3.12"
 
-      # - name: Install dependencies
-      #   run: |
-      #     python -m venv .venv
-      #     source .venv/bin/activate
-      #     pip install -r requirements.txt
-      #   working-directory: ./backend
+      - name: Install dependencies
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install -r requirements.txt
+        working-directory: ./backend
 
-      # - name: Run tests
-      #   run: |
-      #     source .venv/bin/activate
-      #     pytest
-      #   working-directory: ./backend
+      - name: Run tests
+        run: |
+          source .venv/bin/activate
+          python -m pytest
+        working-directory: ./backend
 
   # Frontend CD for Next.js (Deployment)
   FrontEndCD:
