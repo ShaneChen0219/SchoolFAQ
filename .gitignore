@@ -54,6 +54,7 @@
 # local env files
 .env*.local
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.env
 backend/.env
 frontend/schoolfaq/.env
@@ -71,6 +72,12 @@ frontend/schoolfaq/.env
 next-env.d.ts
 
 >>>>>>> ac1207e (gitignore added .env)
+=======
+*.env
+backend/.env
+frontend/schoolfaq/.env
+
+>>>>>>> 5f7cbe3 (remove extra gitignore)
 
 # pycache
 __pycache__/
@@ -80,6 +87,9 @@ __pycache__/
 *.pyc
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5f7cbe3 (remove extra gitignore)
 # dependencies
 frontend/schoolfaq/node_modules
 frontend/schoolfaq/.pnp
@@ -116,5 +126,8 @@ frontend/schoolfaq/*.tsbuildinfo
 frontend/schoolfaq/next-env.d.ts
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> ac1207e (gitignore added .env)
+=======
+>>>>>>> 5f7cbe3 (remove extra gitignore)
