@@ -125,9 +125,5 @@ frontend/schoolfaq/.vercel
 frontend/schoolfaq/*.tsbuildinfo
 frontend/schoolfaq/next-env.d.ts
 
-
-<<<<<<< HEAD
-=======
->>>>>>> ac1207e (gitignore added .env)
-=======
->>>>>>> 5f7cbe3 (remove extra gitignore)
+#Only for testing LLM 
+backend/LLM
