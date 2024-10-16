@@ -51,7 +51,7 @@ export default function ChatBot(){
     }, [chatlog]);
 
     return (
-        <div className="container mx-auto max-w-[700px]">
+        <div className="container mx-auto w-full">
             <div className="flex flex-col h-screen bg-gray-800">
                 <h1 className="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text text-center font-bold text-6xl">
                     School Faq
