@@ -25,7 +25,7 @@ export default function Login() {
             
             console.log(response);
             if (response.status === 200) {
-                router.push('http://localhost:3000/chatBot');
+                router.push('/chatBot');
             }
         } catch (error) {
             // Handle errors (invalid credentials, etc.)
